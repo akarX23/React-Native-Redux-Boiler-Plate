@@ -1,8 +1,8 @@
 {
-  "name": "Blog",
-  "displayName": "Blog",
+  "name": "ProjectName",
+  "displayName": "ProjectName",
   "expo": {
-    "name": "Blog",
+    "name": "ProjectName",
     "slug": "Blog",
     "version": "1.0.0",
     "assetBundlePatterns": [
