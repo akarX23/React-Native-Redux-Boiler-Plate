@@ -1,19 +1,19 @@
-import { createAppContainer } from "react-navigation";
-import { createStackNavigator } from "react-navigation-stack";
+import "react-native-gesture-handler";
+import * as React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
 
 // Import Screens here
 import DemoScreen from "./src/screens/DemoScreen";
 
-const navigator = createStackNavigator(
-  {
-    Demo: DemoScreen,
-  },
-  {
-    initialRouteName: "Demo",
-    defaultNavigationOptions: {
-      title: "Demo App",
-    },
-  }
-);
+const Stack = createStackNavigator();
 
-export default createAppContainer(navigator);
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Demo">
+        <Stack.Screen name="Demo" component={DemoScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}

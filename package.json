@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/native": "^5.8.8",
+    "@react-navigation/stack": "^5.12.5",
     "axios": "^0.21.0",
     "expo": "~39.0.2",
     "expo-splash-screen": "~0.6.2",
@@ -24,8 +26,6 @@
     "react-native-unimodules": "~0.11.0",
     "react-native-vector-icons": "^7.1.0",
     "react-native-web": "~0.13.12",
-    "react-navigation": "^4.4.3",
-    "react-navigation-stack": "^2.10.0",
     "react-redux": "^7.2.2",
     "redux": "^4.0.5",
     "redux-promise": "^0.6.0"
